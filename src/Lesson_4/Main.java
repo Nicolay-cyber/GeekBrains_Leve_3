@@ -17,7 +17,9 @@ public class Main {
             }
         });
         t1.start();
-        Thread.sleep(1000);
-        t2.start();
+        if(t1.isAlive())
+        {
+            t2.start();
+        }
     }
 }

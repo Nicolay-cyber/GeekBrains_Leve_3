@@ -10,6 +10,7 @@ public class Task2 {
         scan();
         copy();
     }
+
     public void print()
     {
         new Thread(() ->
